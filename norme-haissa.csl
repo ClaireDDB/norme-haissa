@@ -3,8 +3,8 @@
   <info>
     <title>Norme bibliographique - HAISSa (note, français/french)</title>
     <title-short>Norme-HAISSa</title-short>
-    <id></id>
-    <link rel="self" href=""/>
+    <id>https://github.com/ClaireDDB/norme-haissa/blob/main/norme-haissa.csl</id>
+    <link rel="self" href="https://github.com/ClaireDDB/norme-haissa/blob/main/norme-haissa.csl"/>
     <author>
       <name>Claire Dupin de Beyssat</name>
       <email>claire.dupindb@gmail.com</email>
