@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<style class="note" default-locale="fr-FR" version="1.0" page-range-format="expanded">
+  <info>
+    <title>Norme bibliographique - HAISSa (note, français/french)</title>
+    <title-short>Norme-HAISSa</title-short>
+    <id></id>
+    <link rel="self" href=""/>
+    <author>
+      <name>Claire Dupin de Beyssat</name>
+      <email>claire.dupindb@gmail.com</email>
+    </author>
+    <category citation-format="note"/>
+    <updated>2021-12-14T17:08:50+00:00</updated>
+    <rights license="http://creativecommons.org/licenses/by-sa/4.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 License</rights>
+  </info>
+   <!-- This style was edited from the Tapuscrit Zotero Style (http://www.zotero.org/styles/le-tapuscrit-notewas) and with the Visual CSL Editor (https://editor.citationstyles.org/visualEditor/) -->
+  <locale xml:lang="fr">
+    <terms>
+      <term name="ordinal-01">ère</term>
+      <term name="ordinal-02">e</term>
+      <term name="ordinal-03">e</term>
+      <term name="ordinal-04">e</term>
+      <term name="cited">op. cit.</term>
+      <term name="page" form="short">p.</term>
+      <term name="editor" form="short">éd</term>
+      <term name="in">dans</term>
+      <term name="no date">[s.d.]</term>
+    </terms>
+  </locale>
+  <macro name="author">
+    <choose>
+      <if match="none" variable="edition">
+        <names variable="author">
+          <name and="text" delimiter-precedes-et-al="never" delimiter-precedes-last="never" name-as-sort-order="all" sort-separator=" ">
+            <name-part name="family" font-variant="small-caps"/>
+          </name>
+          <et-al font-style="italic"/>
+          <substitute>
+            <names variable="editor">
+              <name and="text" delimiter-precedes-et-al="always" delimiter-precedes-last="never" et-al-use-first="4" et-al-subsequent-use-first="4" initialize="false" name-as-sort-order="all" sort-separator=" ">
+                <name-part name="family" font-variant="small-caps"/>
+              </name>
+              <label form="short" plural="never" prefix=" (" suffix=".)"/>
+            </names>
+          </substitute>
+        </names>
+      </if>
+    </choose>
+  </macro>
+  <macro name="title">
+    <choose>
+      <if type="book" match="any">
+        <text variable="title" text-case="capitalize-first" font-style="italic"/>
+      </if>
+      <else-if type="article-journal article-newspaper article-magazine" match="any">
+        <group delimiter=", ">
+          <text variable="title" text-case="capitalize-first" quotes="true"/>
+          <text variable="container-title" font-style="italic"/>
+        </group>
+      </else-if>
+      <else-if type="thesis" match="any">
+        <group delimiter="">
+          <text variable="title" text-case="capitalize-first" font-style="italic" suffix=","/>
+          <text variable="genre" prefix=" "/>
+        </group>
+      </else-if>
+      <else-if type="chapter entry-dictionary entry-encyclopedia" match="any">
+        <group delimiter="">
+          <text variable="title" text-case="capitalize-first" quotes="true"/>
+          <text value="dans" suffix=" " prefix=" "/>
+          <text macro="editor" suffix=", "/>
+          <text variable="container-title" text-case="capitalize-first" font-style="italic"/>
+        </group>
+      </else-if>
+      <else-if type="paper-conference" match="any">
+        <group delimiter=", ">
+          <text variable="title" quotes="true"/>
+          <text variable="event" font-style="italic"/>
+          <text variable="abstract"/>
+        </group>
+      </else-if>
+    </choose>
+  </macro>
+  <macro name="editor">
+    <names variable="editor">
+      <name and="text" delimiter-precedes-et-al="never" delimiter-precedes-last="never" et-al-use-first="4" et-al-subsequent-use-first="4" name-as-sort-order="all" sort-separator=" ">
+        <name-part name="family" font-variant="small-caps"/>
+      </name>
+      <et-al font-style="italic"/>
+      <label form="short" prefix=" (" suffix=".)"/>
+    </names>
+  </macro>
+  <macro name="year-date">
+    <choose>
+      <if match="any" variable="issued">
+        <date variable="issued">
+          <date-part name="year"/>
+        </date>
+      </if>
+      <else>
+        <text term="no date"/>
+      </else>
+    </choose>
+  </macro>
+  <citation et-al-min="4" et-al-use-first="1">
+    <layout suffix="." delimiter=" ; ">
+      <choose>
+        <if position="ibid-with-locator">
+          <group delimiter=", ">
+            <text term="ibid" text-case="capitalize-first" font-style="italic" suffix="."/>
+            <text variable="locator" prefix="p. "/>
+          </group>
+        </if>
+        <else-if position="ibid">
+          <text term="ibid" text-case="capitalize-first" font-style="italic"/>
+        </else-if>
+        <else-if position="subsequent">
+          <choose>
+            <if match="any" variable="edition">
+              <group delimiter=", ">
+                <text macro="title"/>
+                <text macro="year-date"/>
+                <text term="cited" font-style="italic"/>
+              </group>
+            </if>
+            <else>
+              <group delimiter=", ">
+                <text macro="author"/>
+                <text macro="title"/>
+                <choose>
+                  <if type="book chapter" match="any">
+                    <text variable="volume" prefix="volume "/>
+                  </if>
+                  <else/>
+                </choose>
+                <text term="cited" font-style="italic"/>
+              </group>
+            </else>
+          </choose>
+          <text variable="locator" prefix=", p. "/>
+        </else-if>
+        <else>
+          <choose>
+            <if variable="edition">
+              <group delimiter=", ">
+                <text macro="title"/>
+                <text macro="editor"/>
+                <text variable="call-number"/>
+                <text variable="edition"/>
+                <text variable="publisher-place"/>
+                <text variable="publisher"/>
+                <text macro="year-date"/>
+              </group>
+            </if>
+            <else>
+              <group delimiter=", ">
+                <text macro="author"/>
+                <text macro="title"/>
+                <text variable="collection-title"/>
+                <text variable="publisher-place"/>
+                <text variable="publisher"/>
+                <text macro="year-date"/>
+                <text variable="volume" prefix="volume "/>
+                <text variable="issue" prefix="n°"/>
+                <text variable="page" prefix="p. "/>
+              </group>
+            </else>
+          </choose>
+          <choose>
+            <if match="any" variable="page">
+              <text variable="locator" prefix=", ici p. "/>
+            </if>
+            <else>
+              <text variable="locator" prefix=", p. "/>
+            </else>
+          </choose>
+        </else>
+      </choose>
+    </layout>
+  </citation>
+  <bibliography>
+    <sort>
+      <key macro="author" names-min="3" names-use-first="3"/>
+      <key variable="issued"/>
+    </sort>
+    <layout suffix=".">
+      <choose>
+        <if variable="edition">
+          <group delimiter=", ">
+            <text macro="title"/>
+            <text macro="editor"/>
+            <text variable="edition"/>
+            <text variable="publisher-place"/>
+            <text variable="publisher"/>
+            <text macro="year-date"/>
+          </group>
+        </if>
+        <else>
+          <group delimiter=", ">
+            <text macro="author"/>
+            <text macro="title"/>
+            <text variable="collection-title"/>
+            <text variable="publisher-place"/>
+            <text variable="publisher"/>
+            <text macro="year-date"/>
+            <text variable="volume" prefix="volume "/>
+            <text variable="issue" prefix="n°"/>
+            <text variable="page" prefix="p. "/>
+          </group>
+        </else>
+      </choose>
+    </layout>
+  </bibliography>
+</style>
