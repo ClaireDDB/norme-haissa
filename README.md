@@ -10,20 +10,21 @@ Cette norme a été développée dans le but de pouvoir référencer et citer le
 ## Usage
 Cette norme prend en compte les types de documents suivants :
 - livre ;
-- chapitre ;
+- chapitre de livre ;
 - article de revue ;
 - article de journal ;
 - article de colloque ;
-- thèse.
+- thèse et mémoire ;
+- catalogue d'exposition
 
 Pour une équivalence entre les champs Zotero et les champs CSL, voir le fichier 'Mapping' *(à venir)*.
 
-### Livre
+### Livre, chapitre, article et thèse
 
-La référence se présente au format suivant :
-NOM DE L'AUTEUR Prénom de l'auteur, *Titre du livre*, lieu d'édition, maison d'édition, date.
+Pour ces types de documents, les références se composent selon les normes bibliographiques françaises. 
+Les références s'affichent pareillement selon qu'elles apparaissent dans la bibliographie ou en note de bas de pages, sauf pour les références déjà citées qui se limitent aux indications de ou des auteurs, du titre principal et des informations de localisation.
+En voici des exemples :
 
-Pour les références déjà citées : 
 
 
 
