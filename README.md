@@ -22,11 +22,27 @@ Pour une équivalence entre les champs Zotero et les champs CSL, voir le fichier
 ### Livre, chapitre, article et thèse
 
 Pour ces types de documents, les références se composent selon les normes bibliographiques françaises. 
+
 Les références s'affichent pareillement selon qu'elles apparaissent dans la bibliographie ou en note de bas de pages, sauf pour les références déjà citées qui se limitent aux indications de ou des auteurs, du titre principal et des informations de localisation.
+
 En voici des exemples :
 
+![Exemples pour les documents "de base"](/NormeHAISSa_Exemples.jpg)
 
+En bibliographie, les références apparaissent dans l'ordre alphabétique du nom des auteurs puis dans l'ordre chronologique de leur date de publication.
 
+### Catalogues d'exposition
+Pour les catalogues d'exposition, les références se composent ainsi :
+
+*Titre de l'exposition*, NOM et Prénom du ou des commissaires (éd.), cat. exp. (ville de l'exposition, institution, dates), ville d'édition, maison d'édition, date de publication.
+
+Les informations relatives aux expositions doivent être renseignées dans le champ 'Édition' dans la bibliothèque Zotero. **Il est impératif que ce soit l'unique type de document où ce champ est rempli, puisque cela détermine la manière dont la référence est construite et comment elle apparaît dans la bibliographie et les notes de bas de page !**
+
+En note de bas de page, la référence se limitera au titre et à la date de l'exposition.
+
+En bibliographie, ces références apparaîtront dans l'ordre chronologique de leur date.
+
+En voici un exemple :
 
 
 ## Aide
