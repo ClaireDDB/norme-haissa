@@ -34,7 +34,7 @@ En bibliographie, les références apparaissent dans l'ordre alphabétique du no
 ### Catalogues d'exposition
 Pour les catalogues d'exposition, les références se composent ainsi :
 
-*Titre de l'exposition*, NOM et Prénom du ou des commissaires (éd.), cat. exp. (ville de l'exposition, institution, dates), ville d'édition, maison d'édition, date de publication.
+>*Titre de l'exposition*, NOM et Prénom du ou des commissaires (éd.), cat. exp. (ville de l'exposition, institution, dates), ville d'édition, maison d'édition, date de publication.
 
 Les informations relatives aux expositions doivent être renseignées dans le champ 'Édition' dans la bibliothèque Zotero. **Il est impératif que ce soit l'unique type de document où ce champ est rempli, puisque cela détermine la manière dont la référence est construite et comment elle apparaît dans la bibliographie et les notes de bas de page !**
 
