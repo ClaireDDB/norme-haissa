@@ -27,7 +27,7 @@ Les références s'affichent pareillement selon qu'elles apparaissent dans la bi
 
 En voici des exemples :
 
-![Exemples pour les documents "de base"](/NormeHAISSa_Exemples.jpg)
+![Exemples pour les documents "de base"](/NormeHAISSa_Exemples-Autres.jpg)
 
 En bibliographie, les références apparaissent dans l'ordre alphabétique du nom des auteurs puis dans l'ordre chronologique de leur date de publication.
 
@@ -38,12 +38,13 @@ Pour les catalogues d'exposition, les références se composent ainsi :
 
 Les informations relatives aux expositions doivent être renseignées dans le champ 'Édition' dans la bibliothèque Zotero. **Il est impératif que ce soit l'unique type de document où ce champ est rempli, puisque cela détermine la manière dont la référence est construite et comment elle apparaît dans la bibliographie et les notes de bas de page !**
 
+En voici un exemple :
+
+![Exemples pour les catalogues d'exposition](/NormeHAISSa_Exemples-CatExp.jpg)
+
 En note de bas de page, la référence se limitera au titre et à la date de l'exposition.
 
 En bibliographie, ces références apparaîtront dans l'ordre chronologique de leur date.
-
-En voici un exemple :
-
 
 ## Aide
 Si vous rencontrez des difficultés ou si vous répérez un quelconque problème avec cette norme, je vous serai reconnaissante de m'en informer *via* mail : [claire.dupindb@gmail.com](mailto:claire.dupindb@gmail.com).
