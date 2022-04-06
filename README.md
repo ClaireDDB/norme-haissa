@@ -46,11 +46,8 @@ En note de bas de page, la référence se limitera au titre et à la date de l'e
 
 En bibliographie, ces références apparaîtront dans l'ordre chronologique de leur date.
 
-## Aide
-Si vous rencontrez des difficultés ou si vous répérez un quelconque problème avec cette norme, je vous serai reconnaissante de m'en informer *via* mail : [claire.dupindb@gmail.com](mailto:claire.dupindb@gmail.com).
-
-## Contribuer
-Les demandes de mise à jour sont les bienvenues. Pour les changements majeurs, merci de me contacter par mail : [claire.dupindb@gmail.com](mailto:claire.dupindb@gmail.com) pour discuter de ce que vous souhaitez changer.
+## Aide et contribution
+Pour signaler des problèmes, demander des développements ou suggérer des améliorations, je vous serai reconnaissante de me contacter *via* mail : [claire.dupindb@gmail.com](mailto:claire.dupindb@gmail.com).
 
 ## Auteurs et remerciements
 Cette norme a été developpée par [Claire Dupin de Beyssat](https://github.com/ClaireDDB) à l'aide du [Visual CSL Editor](https://editor.citationstyles.org/visualEditor/). Merci à [Federico Nurra](https://github.com/FedericoNurra) et Johanna Daniel pour leur aide et leur initiation.
