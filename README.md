@@ -3,7 +3,7 @@ La norme bibliographique HAISSa est une norme bibliographique en français, pren
 Cette norme a été développée dans le but de pouvoir référencer et citer les catalogues d'exposition, mais prend aussi en charge les autres types de documents imprimés.
 
 ## Installation
-- Télécharger le fichier ['norme-haissa.csl'](https://github.com/ClaireDDB/norme-haissa/blob/main/norme-haissa.csl). 
+- Télécharger le fichier ['norme-haissa.csl'](/norme-haissa.csl). 
 - Dans votre application Zotero installée en local, aller dans le menu 'Édition > Préférences > Citer'. 
 - Ajouter cette norme à l'aide du bouton '+'.
 
@@ -17,7 +17,7 @@ Cette norme prend en compte les types de documents suivants :
 - thèse et mémoire ;
 - catalogue d'exposition
 
-Pour une équivalence entre les champs Zotero et les champs CSL, voir le fichier 'Mapping' *(à venir)*.
+Pour une équivalence entre les champs Zotero et les champs CSL, voir le fichier ['Mapping'](/Mapping.md).
 
 ### Livre, chapitre, article et thèse
 
